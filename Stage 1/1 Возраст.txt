@@ -1,0 +1,5 @@
+let Name = prompt('Ваше имя');
+let Age = prompt('Год рождения');
+let NextYear = 2021 - Age + 1; 
+
+console.log(Name + ',' + ' ' + 'в следующем году Вам будет' + ' ' + NextYear);

@@ -1,0 +1,13 @@
+let amount = parseFloat(prompt ('Enter amount'));
+let percent = parseFloat(prompt ('Enter percent'));
+let month = parseFloat(prompt ('Enter quantity of monthes'));
+let n = 0;
+let result = amount;
+
+while (n < month) {
+  result = result + result * (percent / 100 / 12);
+  n = n + 1;
+}
+  
+ console.log('Profit ' + (result - amount))
+  

@@ -1,0 +1,13 @@
+let a =  +prompt('Enter 1 - circle or 2 - square');
+if (a == 1) {
+  
+    let radius = +prompt('Enter radius');
+
+    drawCircle(200, 200, radius, 'black');
+  
+} else if (a == 2) {
+    let size = +prompt('Enter size');
+    drawRect(50, 50, size, size, 'black');
+} else {
+  console.log('Invalid input')
+}
